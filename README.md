@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Go Reference](https://pkg.go.dev/badge/github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Go.svg)](https://pkg.go.dev/github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Go) [![Contributors](https://img.shields.io/github/contributors/aspose-email-foss/Aspose.JMAP-FOSS-for-Go.svg)](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Go/graphs/contributors)
 
-[![Aspose.JMAP FOSS for Go](https://products.aspose.org/media/jmap/go/banner-readme.png)](https://products.aspose.org/jmap/go/)
-
 Aspose.JMAP FOSS for Go is a free, open source JMAP client library for Go — a package for
 talking to a [JMAP](https://jmap.io) mail server over HTTP:
 [RFC 8620](https://www.rfc-editor.org/rfc/rfc8620) Core (session, `Core/echo`, blob
@@ -161,16 +159,10 @@ for `SendRequest`. Errors surface as `JmapNetworkError` (transport) and `JmapPro
 JMAP method-level error); per-item `Set` failures are returned as data on the result value
 rather than as an `error`.
 
-The full protocol/API reference, rendered from the same specs that drive generation, is
-[`docs/api-reference.md`](../../docs/api-reference.md) at the repository root.
+The protocol/API reference is generated from the same specifications that drive this library.
 
 ## Documentation & Resources
 
-- **[Getting started guide](https://docs.aspose.org/jmap/go/)** — installation and walkthroughs.
-- **[API reference](https://reference.aspose.org/jmap/go/)** — browsable reference for the public types.
-- **[How-to guides & FAQ](https://kb.aspose.org/jmap/go/)** — task-focused answers.
-- **[Protocol/API reference](../../docs/api-reference.md)** — the in-repo reference rendered from the specs.
-- **[Changelog](../../CHANGELOG.md)**, **[Contributing guide](../../CONTRIBUTING.md)**, **[Security policy](../../SECURITY.md)**.
 - Found a bug or have a feature request? [Open an issue](https://github.com/aspose-email-foss/Aspose.JMAP-FOSS-for-Go/issues) on GitHub.
 
 ## Scope and Limitations
